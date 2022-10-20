@@ -1,0 +1,62 @@
+------------------------------------
+git clone git@github.com:MrIvor/common_dv.git......
+------------------------------------
+Cloning into 'common_dv'...
+Connection reset by 192.30.255.113 port 22
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+------------------------------------
+cd frigo && git clone git@github.com:MrIvor/frigo_de.git......
+------------------------------------
+Cloning into 'frigo_de'...
+Connection reset by 192.30.255.113 port 22
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+------------------------------------
+cd frigo && git clone git@github.com:MrIvor/frigo_fpga.git......
+------------------------------------
+Cloning into 'frigo_fpga'...
+Connection reset by 192.30.255.113 port 22
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+------------------------------------
+cd frigo && git clone git@github.com:MrIvor/frigo_dv.git......
+------------------------------------
+Cloning into 'frigo_dv'...
+Connection reset by 192.30.255.113 port 22
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+------------------------------------
+cd frigo && git clone git@github.com:MrIvor/frigo_be.git......
+------------------------------------
+Cloning into 'frigo_be'...
+sign_and_send_pubkey: signing failed for RSA "/home/dd/.ssh/id_rsa" from agent: agent refused operation
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+---------------------------------------------------
+make workspace run result as below:
+lib                     :PASS
+vip                     :PASS
+common_dv               :PASS | Git clone from remote
+frigo                   :PASS| Folder already exist,if want git clone pls rm it first
+frigo/frigo_de          :PASS | Git clone from remote
+frigo/frigo_fpga        :PASS | Git clone from remote
+frigo/frigo_dv          :PASS | Git clone from remote
+frigo/frigo_be          :PASS | Git clone from remote
+ddr                     :PASS| Folder already exist,if want git clone pls rm it first
+usb                     :PASS| Folder already exist,if want git clone pls rm it first
+---------------------------------------------------
+make workspace run result PASS 
+---------------------------------------------------
+---------------------------------------------------
